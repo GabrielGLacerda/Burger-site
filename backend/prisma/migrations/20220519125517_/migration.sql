@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Burguer" ALTER COLUMN "toppings" DROP NOT NULL,
+ALTER COLUMN "meat" DROP NOT NULL,
+ALTER COLUMN "bread" DROP NOT NULL;
